@@ -1,0 +1,11 @@
+:root {
+  --main-font: "DM Serif Display", serif;
+  --sub-font: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: var(--main-font);
+}
+p {
+  font-family: var(--sub-font);
+}
