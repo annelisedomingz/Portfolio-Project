@@ -1,11 +1,44 @@
 :root {
   --main-font: "DM Serif Display", serif;
   --sub-font: "Poppins", sans-serif;
+  --button-color: #d9806f;
 }
 
 h1 {
   font-family: var(--main-font);
+  font-size: 80px;
+  color: white;
 }
 p {
   font-family: var(--sub-font);
+}
+
+.hero {
+  background-color: rgb(1, 5, 4);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h3 {
+  font-size: 30px;
+  font-family: var(--sub-font);
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+.hero h2 {
+  font-family: var(--sub-font);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 5;
+  color: white;
+}
+
+.btn-primary-button {
+  border-radius: 4px;
+  background: var(--button-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 30px;
 }
