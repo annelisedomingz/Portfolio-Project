@@ -39,7 +39,7 @@ p {
   font-family: var(--sub-font);
   font-weight: normal;
   font-size: 24px;
-  line-height: 5;
+  margin: 20px 0;
   color: white;
 }
 
@@ -49,6 +49,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 30px;
+  margin-top: 50px;
 }
 
 .btn-button-outline {
@@ -58,4 +59,42 @@ p {
   line-height: 27px;
   padding: 12px 30px;
   color: #d9806f;
+}
+
+.image {
+  width: 100%;
+  max-width: 600px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
+}
+
+.row {
+  margin: 100px 30px;
+}
+
+.featured-text {
+  font-size: 30px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+/* desktop only*/
+@media (min-width: 576px) {
+  .project-copy {
+    margin: 30px;
+  }
+}
+/* mobile only*/
+@media (max-width: 768px) {
+  h1 {
+    font-size: 65px;
+  }
+  .row {
+    margin: 50px 15px;
+  }
+  h2 {
+    font-size: 45px;
+  }
 }
