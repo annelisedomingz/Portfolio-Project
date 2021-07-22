@@ -76,13 +76,16 @@ p {
   font-size: 30px;
 }
 
-.container {
+.projects-contain {
   margin-top: 100px;
 }
 
 /* desktop only*/
 @media (min-width: 576px) {
   .project-copy {
+    margin: 30px;
+  }
+  .about-me-copy {
     margin: 30px;
   }
 }
@@ -97,4 +100,28 @@ p {
   h2 {
     font-size: 45px;
   }
+  .my-image {
+    width: 100%;
+    min-width: 400px;
+  }
+}
+
+/* About Me */
+
+.about-me {
+  color: black;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 160px 20px 0;
+}
+
+.about-contain {
+  margin-top: 0;
+}
+
+.my-image {
+  width: 100%;
+  max-width: 700px;
 }
