@@ -21,6 +21,36 @@ p {
   line-height: 1.5;
 }
 
+.logo {
+  max-width: 100px;
+}
+
+nav {
+  padding: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 70px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(1, 5, 4);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
+}
+
 .hero {
   background-color: rgb(1, 5, 4);
   text-align: center;
