@@ -134,6 +134,9 @@ nav li.active a {
     width: 100%;
     min-width: 400px;
   }
+  .logo {
+    max-width: 60px;
+  }
 }
 
 /* About Me */
