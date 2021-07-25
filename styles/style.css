@@ -101,6 +101,7 @@ nav li.active a {
 
 .row {
   margin: 100px 30px;
+  padding: 0;
 }
 
 .featured-text {
@@ -131,10 +132,7 @@ nav li.active a {
   h2 {
     font-size: 45px;
   }
-  .my-image {
-    width: 100%;
-    min-width: 400px;
-  }
+
   .logo {
     max-width: 60px;
   }
