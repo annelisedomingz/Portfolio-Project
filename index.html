@@ -18,6 +18,8 @@
       src="https://kit.fontawesome.com/5b981a9fcd.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,7 +52,7 @@
     </div>
     <div class="container projects-contain">
       <p class="text-center m-5 featured-text">Featured Projets</p>
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col-6 d-none d-lg-block">
           <img src="images/Weather-App.png" class="image" alt="weather app" />
         </div>
@@ -65,12 +67,12 @@
               massa, sit amet feugiat arcu. Vestibulum tincidunt interdum
               semper.
             </p>
-            <a href="#" class="btn btn-button-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-button-outline">Learn More</a>
           </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col-12 col-lg-6">
           <div class="project-copy">
             <h2 class="mb-5">Gif Movie Search</h2>
@@ -82,23 +84,23 @@
               massa, sit amet feugiat arcu. Vestibulum tincidunt interdum
               semper.
             </p>
-            <a href="#" class="btn btn-button-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-button-outline">Learn More</a>
           </div>
         </div>
         <div class="col-6 d-none d-lg-block">
           <img
             src="images/movie-giftastic-app.png"
             class="image"
-            alt="weather app"
+            alt="gif app"
           />
         </div>
       </div>
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col-6 d-none d-lg-block">
           <img
             src="images/little-plant-shop.png"
             class="image"
-            alt="weather app"
+            alt="little plant shop"
           />
         </div>
         <div class="col-12 col-lg-6">
@@ -112,10 +114,15 @@
               massa, sit amet feugiat arcu. Vestibulum tincidunt interdum
               semper.
             </p>
-            <a href="#" class="btn btn-button-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-button-outline">Learn More</a>
           </div>
         </div>
       </div>
     </div>
+    <script>
+      AOS.init({
+        duration: "1500",
+      });
+    </script>
   </body>
 </html>
