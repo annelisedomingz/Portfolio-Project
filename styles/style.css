@@ -146,7 +146,7 @@ nav li.active a {
 
 .about-hero {
   text-align: center;
-  padding: 160px 20px 0;
+  padding: 100px 20px 0;
 }
 
 .about-contain {
@@ -160,7 +160,7 @@ nav li.active a {
 
 .work-hero {
   text-align: center;
-  padding: 160px 20px 0;
+  padding: 100px 20px 0;
 }
 
 .my-work {
@@ -171,4 +171,38 @@ nav li.active a {
   width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.2) 0px 30px 60px -30px;
+}
+
+.project-name {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.contact-me {
+  color: black;
+}
+
+.contact-hero {
+  text-align: center;
+  padding: 100px 20px 0;
+}
+
+.contact-site {
+  text-align: center;
+}
+
+.contact-link {
+  text-align: center;
+  font-family: var(--sub-font);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.contact-link a {
+  text-decoration: none;
+  color: var(--button-color);
+}
+
+.contact-link a:hover {
+  text-decoration: underline;
 }
