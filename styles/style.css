@@ -287,3 +287,10 @@ footer .social-links a:hover {
 .contact-link a:hover {
   text-decoration: underline;
 }
+
+.social-links {
+  margin: 0 20px;
+  color: var(--button-color);
+  font-size: 50px;
+  transition: all 150ms ease-in-out;
+}
